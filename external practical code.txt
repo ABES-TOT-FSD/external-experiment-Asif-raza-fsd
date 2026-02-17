@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase</title>
+    <style>
+
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    background-color: #111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 25px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+.card li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.right-menu a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+
+
+
+.content{
+    font-size: 13px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">ShopEase</div>
+
+        <ul class="card">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="right-menu">
+            <a href="#" class="cart">Cart </a>
+            <a href="#" class="login">Login</a>
+        </div>
+    </nav>
+</body>
+</html>
